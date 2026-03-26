@@ -1,15 +1,15 @@
 import { useState, useCallback, useEffect } from "react";
 
 const IMAGES = [
-  { id: 1, src: "src/assets/IMG_7896.jpg", title: "Good Kitty", category: "High IQ" },
-  { id: 2, src: "src/assets/IMG_7897.jpg", title: "Cavernous", category: "High IQ" },
-  { id: 3, src: "src/assets/IMG_7898.jpg", title: "I Like Turtles", category: "High IQ" },
-  { id: 4, src: "src/assets/IMG_7899.jpg", title: "Lets Go For A Swim", category: "High IQ" },
-  { id: 5, src: "src/assets/IMG_7900.jpg", title: "Multi-Dimensional", category: "MAXX IQ" },
-  { id: 6, src: "src/assets/IMG_7901.jpg", title: "Powered By More Than Wind", category: "High IQ" },
-  { id: 7, src: "src/assets/IMG_7903.jpg", title: "Flat Earth", category: "High IQ" },
-  { id: 8, src: "src/assets/IMG_7904.jpg", title: "Galactic", category: "MAXX IQ" },
-  { id: 9, src: "src/assets/OIP-804204961.jpg", title: "Creedence Clearwater Intensifies", category: "MAXX IQ" },
+  { id: 1, src: "IMG_7896.jpg", title: "Good Kitty", category: "High IQ" },
+  { id: 2, src: "IMG_7897.jpg", title: "Cavernous", category: "High IQ" },
+  { id: 3, src: "IMG_7898.jpg", title: "I Like Turtles", category: "High IQ" },
+  { id: 4, src: "IMG_7899.jpg", title: "Lets Go For A Swim", category: "High IQ" },
+  { id: 5, src: "IMG_7900.jpg", title: "Multi-Dimensional", category: "MAXX IQ" },
+  { id: 6, src: "IMG_7901.jpg", title: "Powered By More Than Wind", category: "High IQ" },
+  { id: 7, src: "IMG_7903.jpg", title: "Flat Earth", category: "High IQ" },
+  { id: 8, src: "IMG_7904.jpg", title: "Galactic", category: "MAXX IQ" },
+  { id: 9, src: "OIP-804204961.jpg", title: "Creedence Clearwater Intensifies", category: "MAXX IQ" },
 ];
 
 // ─── Audio ────────────────────────────────────────────────────────────────────
@@ -502,8 +502,8 @@ function GalleryPage({ username, onLogout }) {
       <style>{styles}</style>
       <header className="gallery-header">
         <div className="gallery-header-left">
-          <h1>Corgi Butt Gallery</h1>
-          <span>— {filtered.length} buns</span>
+          <h1>Gallery</h1>
+          <span>— {filtered.length} brainlets</span>
         </div>
         <div className="welcome-pill">
           <span>Signed in as <strong style={{ color: "#c8b89a", fontWeight: 400 }}>{username}</strong></span>
