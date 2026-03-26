@@ -7,8 +7,8 @@ const IMAGES = [
   { id: 4, src: "IMG_7899.jpg", title: "Lets Go For A Swim", category: "High IQ" },
   { id: 5, src: "IMG_7900.jpg", title: "Multi-Dimensional", category: "MAXX IQ" },
   { id: 6, src: "IMG_7901.jpg", title: "Powered By More Than Wind", category: "High IQ" },
-  { id: 7, src: "IMG_7903.jpg", title: "Flat Earth", category: "High IQ" },
-  { id: 8, src: "IMG_7904.jpg", title: "Galactic", category: "MAXX IQ" },
+  { id: 7, src: "IMG_7903.JPG", title: "Flat Earth", category: "High IQ" },
+  { id: 8, src: "IMG_7904.JPG", title: "Galactic", category: "MAXX IQ" },
   { id: 9, src: "OIP-804204961.jpg", title: "Creedence Clearwater Intensifies", category: "MAXX IQ" },
 ];
 
@@ -360,8 +360,8 @@ function AccessDeniedDialog({ scary, onDismiss }) {
               <path d="M12 7v6M12 16.5v.5" stroke="#cc0000" strokeWidth="1.5" strokeLinecap="round"/>
             </svg>
           </div>
-          <h3>You Should Not Be Here</h3>
-          <p>This intrusion has been logged. Further attempts are inadvisable.</p>
+          <h3>You Should Not Be Here, Jack!</h3>
+          <p>NO JACKS ALLOWED!</p>
           <button className="scary-dismiss" onClick={onDismiss}>leave now</button>
         </div>
       </div>
@@ -482,7 +482,7 @@ function LoginPage({ onLogin }) {
             style={shaking ? { animation: "shake 0.4s ease" } : {}}
           />
         </div>
-        <button className="login-btn" onClick={handleLogin}>Enter Gallery</button>
+        <button className="login-btn" onClick={handleLogin}>Enter</button>
         <p className="hint">Hint: user must not be jack!</p>
       </div>
       {showDialog && <AccessDeniedDialog scary={false} onDismiss={() => setShowDialog(false)} />}
